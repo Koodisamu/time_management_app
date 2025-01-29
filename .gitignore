@@ -171,3 +171,5 @@ cython_debug/
 .pypirc
 
 /src/data/database.ini
+
+/src/data/connection_info.py
