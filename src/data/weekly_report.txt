@@ -1,5 +1,22 @@
 Weekly breakdown per consultant:
-Week: 2024-W40, Consultant name: Mikko Virtanen, Total hours: 9.00
+Week: 2024-W40, Consultant name: Mikko Virtanen, Total hours: 20.00
+Week: 2024-W42, Consultant name: Anna Korhonen, Total hours: 16.00
+Week: 2024-W42, Consultant name: Elina Niemi, Total hours: 24.00
+Week: 2024-W42, Consultant name: Juha Lehtonen, Total hours: 8.50
 
 Weekly breakdown per customer:
-Week: 2024-W40, Customer name: BuildIT, Total hours: 9.00
+Week: 2024-W40, Customer name: AutoTech, Total hours: 20.00
+Week: 2024-W42, Customer name: AutoTech, Total hours: 8.50
+Week: 2024-W42, Customer name: DataSoft, Total hours: 10.50
+Week: 2024-W42, Customer name: EduServices, Total hours: 17.00
+Week: 2024-W42, Customer name: GreenEnergy, Total hours: 5.50
+Week: 2024-W42, Customer name: InnoGroup, Total hours: 7.00
+
+Weekly breakdown per consultant grouped by customer:
+Week: 2024-W40, Customer: AutoTech, Consultant: Mikko Virtanen, Total hours: 20.00
+Week: 2024-W42, Customer: AutoTech, Consultant: Elina Niemi, Total hours: 8.50
+Week: 2024-W42, Customer: DataSoft, Consultant: Anna Korhonen, Total hours: 10.50
+Week: 2024-W42, Customer: EduServices, Consultant: Elina Niemi, Total hours: 8.50
+Week: 2024-W42, Customer: EduServices, Consultant: Juha Lehtonen, Total hours: 8.50
+Week: 2024-W42, Customer: GreenEnergy, Consultant: Anna Korhonen, Total hours: 5.50
+Week: 2024-W42, Customer: InnoGroup, Consultant: Elina Niemi, Total hours: 7.00
