@@ -177,10 +177,10 @@ def report_endpoint():
         write_report_to_file(get_weekly_hours_by_consultant(),get_weekly_hours_by_customer(),get_weekly_hours_by_consultant_and_customer(),report_file_path) # Write report to file
         blob_url = upload_to_azure(report_file_path)  # Upload report
         
-        return jsonify({"message": "Report generated and uploaded")})
+        return jsonify({"message": "Report generated and uploaded"})
     
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0", port=5000)
