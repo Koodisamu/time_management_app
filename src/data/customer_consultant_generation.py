@@ -16,13 +16,6 @@ customer_list= [
 ]
 
 
-# with psycopg2.connect(**config()) as conn:
-#     with conn.cursor() as cur:
-#         for row in consultants_list:
-#             cur.execute('INSERT INTO d_consultants (name, location, email) VALUES (%s, %s, %s)', (row['name'], row['location'], row['email']))
-
-
-
 def populate_customers_table():
     con = None
     try:
@@ -42,6 +35,8 @@ def populate_customers_table():
     finally:
         if con is not None:
             con.close()
+
+
 
 def populate_consultants_table():
     con = None
@@ -64,19 +59,6 @@ def populate_consultants_table():
             con.close()
 
 if __name__ == '__main__':
-    populate_consultants_table()
+    #populate_consultants_table()
 
 
-# def insert_many_vendors():
-#     """ Insert multiple vendors into the vendors table  """
-#     sql = "INSERT INTO vendors(vendor_name) VALUES(%s) RETURNING *"
-#     config = load_config()
-#     try:
-#         with  psycopg2.connect(**config) as conn:
-#             with  conn.cursor() as cur:
-#                 # execute the INSERT statement
-#                 cur.executemany(sql, vendor_list)
-#             # commit the changes to the database
-#             conn.commit()
-#     except (Exception, psycopg2.DatabaseError) as error:
-#         print(error)
