@@ -40,45 +40,5 @@ def log_hours():
         return {"error": "error logging hours", "exception": str(e)}
 
 
-# @app.route('/attributes/<int:id>', methods=['GET'])
-# def get_attribute_by_id(id):
-#     try:
-#         return db_get_attribute_by_id(id)
-#     except:
-#         return {"error": "no attribute with id %s" % id}
-
-# @app.route("/attributes", methods=['POST'])
-# def create_attribute():
-#     try: 
-#         data = request.get_json()
-#         attribute_name = data['attribute_name']
-#         attribute_description = data['attribute_description']
-#         attribute_value = data['attribute_value']
-#         person_id = data['person_id']
-#         db_create_attribute(attribute_name, attribute_description, attribute_value, person_id)
-#         return {"success": "created attribute: %s" % attribute_name}
-#     except:
-#         return {"error": "error creating attribute"}
-
-# @app.route("/attributes/<int:id>", methods=['PUT'])
-# def update_attribute(id):
-#     try:
-#         data = request.get_json()
-#         attribute_name = data['attribute_name']
-#         attribute_description = data['attribute_description']
-#         attribute_value = data['attribute_value']
-#         person_id = data['person_id']
-#         db_update_attribute(id, attribute_name, attribute_description, attribute_value, person_id)
-#         return {"success": "updated attribute"}
-#     except:
-#         return {"error": "error updating attribute"}
-
-# @app.route('/attributes/<int:id>', methods=['DELETE'])
-# def delete_attribute(id):
-#     try:
-#         return db_delete_attribute(id)
-#     except:
-#         return {"error": "no such atttribute"}   
-
 if __name__ == "__main__":
     app.run()
